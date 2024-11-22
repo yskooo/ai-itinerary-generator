@@ -1,9 +1,10 @@
 import Map from "~/components/Map";
-
-export default function HomePage() {
+export default function Home() {
   return (
-    <main className="h-screen w-full">
-      <Map />
-    </main>
+    <div className="h-screen flex">
+      <div className="flex-1 relative">
+        <Map />
+      </div>
+    </div>
   );
 }
